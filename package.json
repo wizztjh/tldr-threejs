@@ -1,0 +1,24 @@
+{
+  "name": "tldr-threejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ./www -a localhost -p 8080 -c-1 -o --cors",
+    "postinstall": "node_modules/.bin/bower install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wizztjh/tldr-threejs.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wizztjh/tldr-threejs/issues"
+  },
+  "homepage": "https://github.com/wizztjh/tldr-threejs#readme",
+  "devDependencies": {
+    "http-server": "^0.8.5"
+  }
+}
