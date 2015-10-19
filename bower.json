@@ -1,0 +1,19 @@
+{
+  "name": "tldr-threejs",
+  "version": "0.0.0",
+  "authors": [
+    "Tee Jia Hen <wizztjh@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "three.js": "~0.72.0"
+  }
+}
